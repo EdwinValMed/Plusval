@@ -2,3 +2,43 @@
     --color-primary:#53A019;
     --background-gradient:linear-gradient(180deg, rgba(83, 160, 25, 0.1) 0%, rgba(83, 160, 25, 0) 88.54%);
 }
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    box-shadow: 0px 2px 2px rgb(0, 0, 0 5%);
+    height: 4rem;
+    background-color: white;
+    border-color:rgba(231, 231, 231) ;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+
+}
+.container-header{
+    width: 100vw;
+    padding: 15px;
+    
+    display: flex;
+    
+}
+.figure-logo{
+    width: 200px;
+    
+}
+.logo-img{
+    width: 130px;
+}
+.nav{
+    width: auto;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+    overflow: hidden;
+    position: static;
+}
+.menu{
+    display: flex;
+}
